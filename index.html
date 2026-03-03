@@ -37,7 +37,7 @@
 <body>
     <!-- nav section -->
 
-    <div class="navbar bg-sky-100  bg-base-100 shadow-sm ">
+    <header class="navbar bg-sky-200 bg-base-100 shadow-sm ">
         <div class="navbar-start">
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -47,17 +47,21 @@
                             d="M4 6h16M4 12h8m-8 6h16" />
                     </svg>
                 </div>
-                <ul tabindex="-1"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><a>Item 1</a></li>
+                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                     <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
-                        </ul>
+                        <a href="" class="" border-[#422AD5]">
+                            <i class="fa-solid fa-circle-question"></i>FAQ</a>
                     </li>
-                    <li><a>Item 3</a></li>
+                    <li>
+
+                        <a href="" class="" border-[#422AD5]">
+                            <i class="fa-solid fa-book-open"></i>Learn</a>
+                    </li>
+                    <li>
+
+                        <a href="" class="" border-[#422AD5]">
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
+                    </li>
                 </ul>
             </div>
             <a href="" class=" flex items-center gap-1 ">
@@ -86,12 +90,38 @@
             </ul>
         </div>
 
-    </div>
+    </header>
 
+    <!-- hero section -->
 
+    <section class="w-11/12 py-8 flex flex-col-reverse md:flex-row gap-10 justify-between items-center mx-auto">
 
+        <!-- Content -->
+        <div class="content flex-1 text-center md:text-left">
 
+            <p class="text-2xl md:text-4xl mb-6 md:mb-8 font-bold">
+                <span class="text-blue-400">English </span>is Easy!!
+            </p>
 
+            <p class="text-base md:text-[26px] text-center mb-6 md:text-left">
+                আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে
+                চান, আমাদের
+                Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ
+            </p>
+
+            <div class="grid gap-4">
+                <input type="text" placeholder="Enter Your Number" class="input input-neutral border-gray-200 w-full" />
+                <input type="password" placeholder="********" class="input input-neutral border-gray-200 w-full" />
+            </div>
+
+        </div>
+
+        <!-- Image -->
+        <div class="image flex-1">
+            <img src="assets/hero-student.png" alt="" class="w-full max-w-sm mx-auto md:max-w-full">
+        </div>
+
+    </section>
 
 
 
